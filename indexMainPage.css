@@ -1,0 +1,66 @@
+:root
+{
+	font-size: 16px;
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+.outerBox
+{
+	margin: 5vw;
+	display: block;
+}
+
+.bigOuterBox .outerBox
+{
+	background: #2c2c2c;
+  border: 1px solid #2c2c2c;
+  border-radius: 10px;
+  box-shadow: 0px 3px 20px 2px #35eea4;
+  display: block;
+}
+
+.bigOuterBox .outerBox .banner
+{
+	background: #2c2c2c;
+  	border: 1px solid #2c2c2c;
+  	border-radius: 10px;
+ 	box-shadow: 0px 3px 20px 2px #35eea4;
+  	display: block;
+  	padding: 10px;
+}
+
+.bigOuterBox .outerBox .banner .heading
+{
+	color: #35eea4;
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1vh;
+    padding: 5vw;
+}
+.bigOuterBox .outerBox .banner .sub-heading
+{
+	color: #35eea4;
+    font-family: "Playfair Display", serif;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0 5vw 2vw;
+}
+.bigOuterBox .outerBox .banner .sub-heading  button {
+      background: none;
+      border: none;
+      border-radius: 5px;
+      color: #35eea4;
+      font-family: "Istok Web", sans-serif;
+      font-size: 1rem;
+      letter-spacing: 8px;
+      margin-top: 2vh;
+      padding: 10px;
+      text-transform: uppercase;
+      transition: box-shadow 0.3s linear 0.1s; }
+    .bigOuterBox .outerBox .banner .sub-heading button:hover {
+      cursor: pointer;
+      box-shadow: 0 3px 20px 0 #35eea4; }
